@@ -5,14 +5,14 @@
 #######################################################################################
 
 
-#### There are 3 R codes and 1 supporting data set. 
-## 1. lc-agglogit-main-availablity.R: Main R code - Note that this accomodate varying choice sets 
+#### There are 3 R codes and 1 supporting synthetic data set. 
+## 1. lc-agglogit-main-availablity.R: Main R code - Note that this code accomodates varying choice sets (i.e. # of products are allowed to change over time/market.) 
 ##
-## 2. ll_adclc.ava.R: Log-Likelihood functoin for maximization
+## 2. ll_adclc_ava.R: Log-Likelihood functoin for maximization
 ##
 ## 3. fake-data-gen-with-availability.R: Synthetic data generation code (for code validation)
 ##
-## 4. lcl_agg_fake_data-with-availability.csv: Synthetic data generated from the code above
+## 4. lcl_agg_fake_data-with-availability.csv: Synthetic data generated from the code above (aggregated data)
 
 #### Reference: 1. A Segment-Level Model of Category Volume and Brand Choice
 ####            William R. Dillon and Sunil Gupta 
